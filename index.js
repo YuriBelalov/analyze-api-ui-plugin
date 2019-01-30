@@ -11,10 +11,7 @@ export default function (kibana) {
         description: 'UI for elasticsearch analyze API',
         main: 'plugins/analyze-api-ui-plugin/app'
       },
-      
-      translations: [
-        resolve(__dirname, './translations/es.json')
-      ],
+
       hacks: [
       ]
     },
